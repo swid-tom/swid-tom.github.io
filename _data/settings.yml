@@ -12,10 +12,10 @@ address: Buffalo, NY
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-  - { name: About, link: "/about" }
+ # - { name: About, link: "/about" }
  # - { name: Blog, link: "/blog" }
  # - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+ # - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section

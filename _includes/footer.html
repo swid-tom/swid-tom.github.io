@@ -15,11 +15,16 @@
     </div>
   </div>
 
-    <!-- social icons (moved from hero) -->
+  <!-- social icons (moved from hero) -->
+  <style>
+    /* Make social icons larger and nudge them up slightly */
+    .social-icons li a i { font-size: 1.75rem; display: inline-block; transform: translateY(-6px); }
+    .social-icons li a { line-height: 1; }
+  </style>
   <div class="container">
     <div class="row mt-4">
       <div class="col-12 text-center">
-        <ul class="list-inline">
+        <ul class="list-inline social-icons">
           {% for social in site.data.settings.social %}
           <li class="list-inline-item mx-2"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
           {% endfor %}

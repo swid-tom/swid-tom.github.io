@@ -143,7 +143,7 @@ services:
     }
   - {
       name: Cisco,
-      icon: ti-circle-letter-c,
+      icon: ti-cisco,
       description: "CCNA R/S | Security",
       active: true, # Add true to select section
     }

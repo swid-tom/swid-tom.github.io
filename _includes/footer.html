@@ -17,9 +17,30 @@
 
   <!-- social icons (moved from hero) -->
   <style>
-    /* Make social icons larger and nudge them up slightly */
-    .social-icons li a i { font-size: 1.75rem; display: inline-block; transform: translateY(-26px); }
-    .social-icons li a { line-height: 1; }
+    /* Make social icons larger, add white circular outline, and nudge up slightly */
+    .social-icons li a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
+      transition: transform .15s ease, background .15s ease;
+    }
+    .social-icons li a:hover { transform: translateY(-26px) scale(1.05); }
+    .social-icons li a i {
+      font-size: 1.25rem;
+      line-height: 1;
+      display: inline-block;
+      transform: translateY(-2px);
+    }
+    @media (max-width: 576px) {
+      .social-icons li a { width: 40px; height: 40px; }
+      .social-icons li a i { font-size: 1.1rem; }
+    }
   </style>
   <div class="container">
     <div class="row mt-4">

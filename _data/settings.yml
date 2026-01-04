@@ -129,16 +129,6 @@ education:
       date: "2014",
       organization: "Geenesee Community College",
     }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
 
 #-------------------------------
 # Services Section

@@ -142,9 +142,9 @@ services:
       active: ,# Add true to select section
     }
   - {
-      name: UX Design,
+      name: Cisco,
       icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "CCNA R/S | Security",
       active: true, # Add true to select section
     }
   - {

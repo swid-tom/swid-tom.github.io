@@ -138,7 +138,7 @@ services:
   - {
       name: Microsoft,
       icon: ti-medall,
-      description: "MCPS: Microsoft Certified Professional",
+      description: "Microsoft Certified Professional | MCPS",
       active: ,# Add true to select section
     }
   - {

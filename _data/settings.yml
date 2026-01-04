@@ -144,7 +144,7 @@ services:
   - {
       name: Cisco,
       icon: ti-medall,
-      description: "CCNA R/S | Security",
+      description: "CCNA R/S | Security | 2019",
       active: true, # Add true to select section
     }
   - {

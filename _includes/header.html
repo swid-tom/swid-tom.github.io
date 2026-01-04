@@ -7,6 +7,10 @@
         <h3 class="text-white font-tertiary">{{site.data.settings.title}}</h3>
       {% endif %}
     </a>
+        <!-- quote text to the right of brand (uses site.data.settings.quote) -->
+    <div class="navbar-quote d-none d-md-inline-block ml-3" style="opacity:0.7; color:#fff; font-style:italic; font-size:0.95rem;">
+      "{{ site.data.settings.quote | default: 'Design. Build. Ship.' }}"
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

@@ -173,8 +173,8 @@ portfolio-home-items:
 
 # NEW: short text list items
 portfolio-home-list:
-  - text: "Ansible playbooks for network device backups"
-  - text: "Cisco SD-WAN IPsec tunnel automation utility"
+  - text: "Windows Sewrver (2008 - 2025)"
+  - text: "Routing and Switching (Cisco - Catalyst | Nexus | MDS : Nortel : Extreme : HPE : Avaya )"
   - text: "Kerberos TCP connectivity diagnostics script"
   - text: "Meraki AP inventory and health audit"
   - text: "Stage/Guest VLAN posture assessment notes"

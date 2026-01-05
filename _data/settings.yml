@@ -174,13 +174,9 @@ portfolio-home-items:
 # NEW: short text list items
 portfolio-home-list:
   - text: "Ansible playbooks for network device backups"
-    url: "https://github.com/your/ansible-backups"
   - text: "Cisco SD-WAN IPsec tunnel automation utility"
-    url: "https://github.com/your/sdwan-ipsec-tool"
   - text: "Kerberos TCP connectivity diagnostics script"
-    url: "https://github.com/your/kerberos-diagnostics"
   - text: "Meraki AP inventory and health audit"
-    url: "https://github.com/your/meraki-audit"
   - text: "Stage/Guest VLAN posture assessment notes"
     # url optional—omit if you just want plain text
 

@@ -24,4 +24,36 @@
   </div>
 </section>
 <!-- /portfolio -->
+
+{% if site.data.settings.portfolio-home-list %}
+<!-- short text list -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">More Projects & Tools</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <ul class="list-group list-group-flush">
+          {% for item in site.data.settings.portfolio-home-list %}
+          <li class="list-group-item px-0">
+            {% if item.url %}
+              {{ item.url }}
+                {{ item.text }}
+              </a>
+            {% else %}
+              {{ item.text }}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /short text list -->
+
 {% endif %}

@@ -173,11 +173,17 @@ portfolio-home-items:
 
 # NEW: short text list items
 portfolio-home-list:
-  - text: "Windows Sewrver (2008 - 2025)"
-  - text: "Routing and Switching (Cisco - Catalyst | Nexus | MDS : Nortel : Extreme : HPE : Avaya )"
-  - text: "Kerberos TCP connectivity diagnostics script"
-  - text: "Meraki AP inventory and health audit"
-  - text: "Stage/Guest VLAN posture assessment notes"
+  - text: "Windows Server ( 2008 - 2025 )"
+  - text: "Routing and Switching ( Cisco - Catalyst | Nexus | MDS : Nortel : Extreme : HPE : Avaya : OSPF : BGP )"
+  - text: "SDWAN ( Fortigate | Meraki | Cisco )"
+  - text: "Firewalls ( Cisco ASA | Sophos | Fortigate | Vmware NSXT-T )"
+  - text: "Virtual Evn ( Vmware ESXI / Vsphere | Horizon View )"
+  - text: "Linux ( RHEL | CENTOS | UBUNTU )"
+  - text: "Wireless ( Cisco WLC | Aruba | Sophos )"
+  - text: "Telephony ( Cisco CM | Avaya IPO )"
+  - text: "Network Monitoring ( Nagios | Solarwinds | MRTG | CheckMK )"
+  - text: "Backup ( Veeam | Unitrends | Zerto | Rubriks )"
+  - text: "Storage ( NetApps | Pure | EMC | HPE )"
     # url optional—omit if you just want plain text
 
 

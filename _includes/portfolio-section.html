@@ -25,35 +25,57 @@
 </section>
 <!-- /portfolio -->
 {% endif %}
+
 {% if site.data.settings.portfolio-home-list %}
-<!-- short text list -->
+{% assign total = site.data.settings.portfolio-home-list | size %}
+{% assign columns = 2 %}
+{% if total >= 4 and total <= 9 %}
+  {% assign columns = 3 %}
+{% elsif total >= 10 %}
+  {% assign columns = 4 %}
+{% endif %}
+
+<!-- short text list (CSS columns with dynamic count) -->
 <section class="section">
+  <style>
+    /* Optional: add to your main CSS instead of inline */
+    .multi-col-list {
+      column-gap: 1.25rem; /* space between columns */
+    }
+    .multi-col-list .list-item {
+      break-inside: avoid; /* keep items from splitting across columns */
+      padding: .25rem 0;
+    }
+    /* Make sure links look consistent */
+    .multi-col-list a {
+      text-decoration: none;
+    }
+  </style>
+
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Technolgies I've dealt with</h2>
+        <h2 class="section-title">More Projects &amp; Tools</h2>
       </div>
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <ul class="list-group list-group-flush">
+      <div class="col-lg-10">
+        <div class="multi-col-list" style="column-count: {{ columns }};">
           {% for item in site.data.settings.portfolio-home-list %}
-          <li class="list-group-item px-0">
+          <div class="list-item">
             {% if item.url %}
-              {{ item.url }}
-                {{ item.text }}
-              </a>
+              <a href="{{ item item.text }}</a>
             {% else %}
               {{ item.text }}
             {% endif %}
-          </li>
+          </div>
           {% endfor %}
-        </ul>
+        </div>
       </div>
     </div>
   </div>
 </section>
 <!-- /short text list -->
-
 {% endif %}
+

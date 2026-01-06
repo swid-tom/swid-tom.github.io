@@ -184,6 +184,8 @@ portfolio-home-list:
   - text: "Network Monitoring ( Nagios | Solarwinds | MRTG | CheckMK )"
   - text: "Backup ( Veeam | Unitrends | Zerto | Rubriks )"
   - text: "Storage ( NetApps | Pure | EMC | HPE )"
+  - text: "Automation ( Ansible | Gitlab | Git | Github | Normir | RestAPI | NETCONF | Nautobot )"
+  - text: "Scripting ( Powershell | Bash | Python | Yaml )"
     # url optional—omit if you just want plain text
 
 

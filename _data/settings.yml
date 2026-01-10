@@ -163,7 +163,7 @@ portfolio-home-items:
     url: "https://github.com/swid-tom/show_runner"
 
   - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+    url: "https://github.com/swid-tom/Monitor_Azure"
 
   - image: "assets/images/portfolio/item-3.png"
     url: "https://github.com/swid-tom/Ansible_Playbooks"

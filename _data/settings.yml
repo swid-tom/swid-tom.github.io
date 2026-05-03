@@ -86,9 +86,10 @@ blurb: Throughout my life, I’ve approached every challenge with enthusiasm, cr
 skills-title: Skills
 skills:
   - { name: Network Troubleshoot & Design, color: "#fdb157", value: "90%" }
-  - { name: Network Automation, color: "#9473e6", value: "60%" }
-  - { name: Network Security, color: "#bdecf6", value: "80%" }
+  - { name: Network Automation, color: "#9473e6", value: "50%" }
+  - { name: Network Security, color: "#bdecf6", value: "70%" }
   - { name: Scripting, color: "#ffbcaa", value: "70%" }
+  - { name: Agile (Scrumban Master), color: "#ffbcaa" }
 
 #-------------------------------
 # Exprerience Section
@@ -96,7 +97,7 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Network Engineer,
+      name: Network Engineer IV,
       icon: "icon-1.png",
       date: "Sept 2022 - Present",
       organization: "NFG",

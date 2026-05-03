@@ -87,9 +87,8 @@ skills-title: Skills
 skills:
   - { name: Network Troubleshoot & Design, color: "#fdb157", value: "90%" }
   - { name: Network Automation, color: "#9473e6", value: "50%" }
-  - { name: Network Security, color: "#bdecf6", value: "70%" }
   - { name: Scripting, color: "#ffbcaa", value: "70%" }
-  - { name: Agile (Scrumban Master), color: "#ffbcaa" }
+  - { name: Agile (Scrumban Master), color: "#ffbcaa", value: "50%" }
 
 #-------------------------------
 # Exprerience Section

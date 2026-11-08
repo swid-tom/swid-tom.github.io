@@ -4,12 +4,11 @@
 
 title: TS
 logo:
-author: themefisher
-description: this is meta description
+author: Tomasz Swiderek
+description: Personal resume and portfolio for Tomasz Swiderek, network engineer.
 email: swiderektom@gmail.com
 #phone: +880 2544 658 256
 address: Buffalo, NY
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 quote: Believe you can and you're halfway there ~Theodore Roosevelt
 
 menu: []
@@ -108,7 +107,7 @@ experience:
       organization: "Woods Oviatt Gilman LLP",
     }
   - {
-      name: IT Operations Analsyt,
+      name: IT Operations Analyst,
       icon: "icon-3.png",
       date: "Oct 2014 - Dec 2019",
       organization: "Genesee County IT",
@@ -127,7 +126,7 @@ education:
   - {
       name: A.A.S. Computer Systems & Network Technologies,
       date: "2014",
-      organization: "Geenesee Community College",
+      organization: "Genesee Community College",
     }
 
 #-------------------------------
@@ -177,7 +176,7 @@ portfolio-home-list:
   - text: "Routing and Switching ( Cisco - Catalyst | Nexus | MDS : Nortel : Extreme : HPE : Avaya : OSPF : BGP )"
   - text: "SDWAN ( Fortigate | Meraki | Cisco )"
   - text: "Firewalls ( Cisco ASA | Sophos | Fortigate | Vmware NSXT-T )"
-  - text: "Virtual Evn ( Vmware ESXI / Vsphere | Horizon View )"
+  - text: "Virtual Environment ( VMware ESXi / vSphere | Horizon View )"
   - text: "Linux ( RHEL | CENTOS | UBUNTU )"
   - text: "Wireless ( Cisco WLC | Aruba | Sophos )"
   - text: "Telephony ( Cisco CM | Avaya IPO )"
@@ -207,40 +206,6 @@ portfolio-home-list:
   #  image: "assets/images/testimonial/client-1.png"
    # designation: "CEO, Funder"
    # content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section

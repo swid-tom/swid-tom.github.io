@@ -167,6 +167,9 @@ portfolio-home-items:
   - image: "assets/images/portfolio/item-3.png"
     url: "https://github.com/swid-tom/Ansible_Playbooks"
 
+  - images: "assets/images/portfolio/item-4.png"
+    url: "https://github.com/swid-tom/PathScope"
+
 # Portfolio Page
 
 
